@@ -28,8 +28,6 @@ def main():
         updatable.update(dt)
         for x in drawable:
             x.draw(screen)
-        #player.draw(screen)
-        #player.update(dt)
         pygame.display.flip()
 
         for event in pygame.event.get():
